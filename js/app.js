@@ -1,5 +1,8 @@
 let elPokemonList = document.querySelector(".list")
 let elInput = document.querySelector(".input_text")
+let elCount = document.querySelector(".show_count")
+
+elCount.textContent = pokemons.length
 
 function renderCountries(arr, list){
     list.innerHTML = null
