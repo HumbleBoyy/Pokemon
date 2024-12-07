@@ -20,22 +20,22 @@
     <title>Pokemon</title>
 </head>
 <body>
-    <header class="flex items-center w-[100%] h-[90px] bg-gray-200 drop-shadow-lg p-10 gap-2">
+    <header class="flex items-center w-[100%] h-[80px] bg-gray-200 drop-shadow-lg p-10 gap-2 fixed">
         <div class="flex items-center w-[500px] h-[40px] bg-white  text-[1.5rem] rounded-xl">
            <input type="text" placeholder="Enter name or random number...." class="input_text w-[500px] h-[40px] outline-none rounded-xl p-5">
            <div class="flex justify-center items-center w-[50px] h-[40px] bg-orange-500 text-white cursor-pointer rounded-xl">
             <i class="fa-solid fa-magnifying-glass"></i>
            </div>
         </div>
-        <p class="show_count text-2xl">0</p>
+        <p class="show_count text-[2rem]"></p>
     </header>
 
 
-    <main class="grid grid-cols-2">
-      <div class="list grid grid-cols-3">
+    <main class="flex justify-between items-center">
+      <div class="list grid grid-cols-3 gap-1">
       </div>
-      <div>
-      </div>
+        <div class="big_card fixed top-[14%] left-[48%] right-0 w-[50%] h-[80%] rounded-md bg-slate-300">
+        </div>
     </main>
 
     <script src="./js/pakemon.js"></script>
