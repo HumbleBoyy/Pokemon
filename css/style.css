@@ -9,3 +9,20 @@
 html{
     font-size: 62.5%;
 }
+
+.warning {
+    display: none;
+}
+
+@media(max-width:1260px){
+    .warning {
+        display: block;
+    }
+
+    .headers{
+        display: none;
+    }
+    .mains{
+        display: none;
+    }
+}
